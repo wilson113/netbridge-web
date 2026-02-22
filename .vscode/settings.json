@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/3b94b39b-051a-41e9-8511-cdb97f129e1b/resourceGroups/Curso-Azure/providers/Microsoft.Web/sites/computel-sl",
+    "appService.deploySubpath": "."
+}

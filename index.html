@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETBRIGDE SOLUTIONS | Soporte Técnico</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2004/2004699.png">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f0f2f5;
+        }
+
+        /* Cabecera */
+        header {
+            background: #0078d4;
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header h2 {
+            font-weight: 300;
+            margin-top: 10px;
+            opacity: 0.9;
+        }
+
+        /* Banner Principal */
+        .hero-image {
+            width: 100%;
+            height: 350px;
+            overflow: hidden;
+        }
+
+        .hero-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Contenedor y Tarjetas */
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: auto;
+            padding: 2rem 0 5rem 0;
+        }
+
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            flex: 1;
+            min-width: 280px;
+            max-width: 350px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card h3 {
+            color: #0078d4;
+            margin-top: 0;
+        }
+
+        /* Botón y Footer */
+        .btn {
+            display: inline-block;
+            background: #28a745;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #218838;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>NETBRIGDE SOLUTIONS</h1>
+        <h2>Especialistas en Limpieza y Reparación</h2>
+        <p>Soluciones rápidas para tus problemas informáticos</p>
+    </header>
+
+    <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1588508065123-287b28e013da?q=80&w=1200"
+            alt="Taller de computadoras">
+    </div>
+
+    <div class="container">
+        <div class="services">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?q=80&w=600" alt="Hardware">
+                <div class="card-content">
+                    <h3>Hardware</h3>
+                    <p>Cambio de pantallas, teclados, discos SSD y ampliación de memoria RAM.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=600" alt="Software">
+                <div class="card-content">
+                    <h3>Software</h3>
+                    <p>Eliminación de virus, instalación de sistemas operativos y optimización.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?q=80&w=600" alt="Limpieza">
+                <div class="card-content">
+                    <h3>Limpieza Profunda</h3>
+                    <p>Mantenimiento preventivo, cambio de pasta térmica y limpieza de ventiladores.</p>
+                    <a href="limpieza.html" class="btn"
+                        style="background: #0078d4; font-size: 0.9rem; padding: 8px 15px;">Ver detalles y precios</a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div
+            style="text-align: center; margin-top: 50px; background: white; padding: 40px; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+            <h2>¿Tu ordenador va lento o se calienta?</h2>
+            <p>Estamos listos para ayudarte. ¡Pide tu diagnóstico hoy mismo!</p>
+            <a href="mailto:tu-correo@ejemplo.com" class="btn">Solicitar Presupuesto Gratis</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 NETBRIGDE SOLUTIONS - Calidad Garantizada</p>
+    </footer>
+    <a href="https://wa.me/34666225010?text=Hola!%20Necesito%20ayuda%20con%20mi%20ordenador"
+        style="position:fixed; width:60px; height:60px; bottom:40px; right:40px; background-color:#25d366; color:#FFF; border-radius:50px; text-align:center; box-shadow: 2px 2px 10px rgba(0,0,0,0.3); z-index:100; display: flex; align-items: center; justify-content: center; text-decoration: none;"
+        target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp"
+            style="width: 35px; height: 35px;">
+    </a>
+
+</body>
+
+</html>
